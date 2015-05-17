@@ -1,0 +1,91 @@
+/* line 1, ../scss/styles.scss */
+html {
+  background: url(../images/nyugati.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 9, ../scss/styles.scss */
+body {
+  color: white;
+  background: transparent;
+  text-align: center;
+}
+
+/* line 15, ../scss/styles.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 20, ../scss/styles.scss */
+#welcome-text {
+  margin-top: 2em;
+  font-size: 1.25em;
+}
+/* line 24, ../scss/styles.scss */
+#welcome-text p {
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  margin-bottom: 1em;
+}
+/* line 29, ../scss/styles.scss */
+#welcome-text p:nth-of-type(1) {
+  font-size: 2em;
+  font-family: 'Georgia', sans-serif;
+}
+/* line 33, ../scss/styles.scss */
+#welcome-text p:nth-of-type(2) {
+  font-size: 2.2em;
+  font-family: 'Verdana', sans-serif;
+}
+/* line 37, ../scss/styles.scss */
+#welcome-text p:nth-of-type(3) {
+  font-size: 1.5em;
+  font-family: 'Georgia', serif;
+}
+/* line 41, ../scss/styles.scss */
+#welcome-text p:nth-of-type(4) {
+  font-size: 2.2em;
+  font-family: 'Georgia', serif;
+}
+/* line 45, ../scss/styles.scss */
+#welcome-text p:nth-of-type(4) span.line {
+  display: block;
+}
+/* line 48, ../scss/styles.scss */
+#welcome-text p:nth-of-type(4) span.line:first-child {
+  font-size: 0.6em;
+  font-family: 'Verdana', sans-serif;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.8em;
+}
+/* line 57, ../scss/styles.scss */
+#welcome-text p:nth-of-type(5) {
+  font-size: 1.5em;
+}
+
+/* line 62, ../scss/styles.scss */
+#nav {
+  margin-top: 3em;
+  font-size: 3em;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+/* line 67, ../scss/styles.scss */
+#nav li {
+  display: inline-block;
+  padding: 0.5em 0.25em;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 72, ../scss/styles.scss */
+#nav li span {
+  padding: 0.1em;
+  border-bottom: 3px solid white;
+}
+/* line 77, ../scss/styles.scss */
+#nav li:hover {
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
