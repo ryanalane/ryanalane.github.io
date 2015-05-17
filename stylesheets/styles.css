@@ -29,46 +29,45 @@ a {
 #welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
-  margin-bottom: 1em;
 }
-/* line 29, ../scss/styles.scss */
+/* line 28, ../scss/styles.scss */
 #welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 33, ../scss/styles.scss */
+/* line 32, ../scss/styles.scss */
 #welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
-/* line 37, ../scss/styles.scss */
+/* line 36, ../scss/styles.scss */
 #welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
-/* line 43, ../scss/styles.scss */
+/* line 42, ../scss/styles.scss */
 #nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 47, ../scss/styles.scss */
+/* line 46, ../scss/styles.scss */
 #nav ol {
   margin: 0;
 }
-/* line 51, ../scss/styles.scss */
+/* line 50, ../scss/styles.scss */
 #nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 56, ../scss/styles.scss */
+/* line 55, ../scss/styles.scss */
 #nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 62, ../scss/styles.scss */
+/* line 61, ../scss/styles.scss */
 #nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
