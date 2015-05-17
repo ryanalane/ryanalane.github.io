@@ -1,5 +1,5 @@
 html { 
-  background: url(../images/nyugati.jpg) no-repeat center center fixed; 
+  background: url(../images/nyugati-large.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,25 +38,6 @@ a {
         font-size: 1.5em; 
         font-family: 'Georgia', serif;
     } 
-    p:nth-of-type(4) {
-        font-size: 2.2em; 
-        font-family: 'Georgia', serif;
-
-        span.line {
-            display: block;
-
-           &:first-child {
-            font-size: 0.6em;
-            font-family: 'Verdana', sans-serif;
-
-            letter-spacing: 0.2em;
-            margin-bottom: 0.8em;
-           } 
-        }
-    } 
-    p:nth-of-type(5) {
-        font-size: 1.5em; 
-    } 
 }
 
 #nav {
@@ -67,10 +48,12 @@ a {
     li {
         display: inline-block;
         padding: 0.5em 0.25em;
+        margin: 0 1.5em;
         background: rgba(0,0,0,0.6);
 
         span {
-            padding: 0.1em;
+            font-size: 1.5em;
+            padding: 0.1em 0.25em;
             border-bottom: 3px solid white;  
         }
 
