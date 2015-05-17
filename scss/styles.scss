@@ -41,14 +41,16 @@ a {
 }
 
 #nav {
-    margin-top: 3em;
     font-size: 3em;
     font-family: "Lucida Console", Monaco, monospace;
+
+    ol {
+        margin: 0;
+    }
 
     li {
         display: inline-block;
         padding: 0.5em 0.25em;
-        margin: 0 1.5em;
         background: rgba(0,0,0,0.6);
 
         span {

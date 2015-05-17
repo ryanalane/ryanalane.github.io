@@ -49,24 +49,26 @@ a {
 
 /* line 43, ../scss/styles.scss */
 #nav {
-  margin-top: 3em;
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 48, ../scss/styles.scss */
+/* line 47, ../scss/styles.scss */
+#nav ol {
+  margin: 0;
+}
+/* line 51, ../scss/styles.scss */
 #nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
-  margin: 0 1.5em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 54, ../scss/styles.scss */
+/* line 56, ../scss/styles.scss */
 #nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 60, ../scss/styles.scss */
+/* line 62, ../scss/styles.scss */
 #nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
