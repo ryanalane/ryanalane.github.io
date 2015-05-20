@@ -15,59 +15,126 @@ body {
 }
 
 /* line 15, ../scss/styles.scss */
+h1 {
+  color: white;
+  background: black;
+  margin: 0;
+}
+
+/* line 21, ../scss/styles.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 20, ../scss/styles.scss */
+/* line 26, ../scss/styles.scss */
 #welcome-text {
   font-size: 1.25em;
 }
-/* line 23, ../scss/styles.scss */
+/* line 29, ../scss/styles.scss */
 #welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
 }
-/* line 27, ../scss/styles.scss */
+/* line 33, ../scss/styles.scss */
 #welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 31, ../scss/styles.scss */
+/* line 37, ../scss/styles.scss */
 #welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
-/* line 35, ../scss/styles.scss */
+/* line 41, ../scss/styles.scss */
 #welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
-/* line 41, ../scss/styles.scss */
+/* line 47, ../scss/styles.scss */
 #nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 45, ../scss/styles.scss */
+/* line 51, ../scss/styles.scss */
 #nav ol {
   margin: 0;
 }
-/* line 49, ../scss/styles.scss */
+/* line 55, ../scss/styles.scss */
 #nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 54, ../scss/styles.scss */
+/* line 60, ../scss/styles.scss */
 #nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 60, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 #nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
+}
+
+/* line 74, ../scss/styles.scss */
+#projects ol {
+  margin: 0;
+  list-style-type: none;
+}
+/* line 78, ../scss/styles.scss */
+#projects ol li {
+  font-size: 1em;
+  color: inherit;
+  background: rgba(0, 0, 0, 0.8);
+  border: 0;
+  margin-top: -1px;
+  padding: 0.5em 0;
+}
+/* line 87, ../scss/styles.scss */
+#projects ol li:nth-of-type(1) {
+  color: inherit;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 91, ../scss/styles.scss */
+#projects ol li:nth-of-type(2) {
+  color: inherit;
+  background: rgba(54, 52, 47, 0.7);
+}
+/* line 95, ../scss/styles.scss */
+#projects ol li:nth-of-type(3) {
+  color: inherit;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 100, ../scss/styles.scss */
+#projects ol li:hover {
+  color: inherit;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+/* line 107, ../scss/styles.scss */
+#projects ol li p {
+  line-height: 1.2;
+}
+/* line 111, ../scss/styles.scss */
+#projects ol li p.project-title {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  color: inherit;
+  background: rgba(0, 0, 0, 0.9);
+}
+/* line 117, ../scss/styles.scss */
+#projects ol li p.project-description {
+  font-size: 1.25em;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.01em;
+}
+/* line 123, ../scss/styles.scss */
+#projects ol li p.project-tags {
+  color: #bfbfc0;
+  font-size: 1em;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.1em;
 }
