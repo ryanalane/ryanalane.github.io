@@ -13,9 +13,13 @@ body {
 }
 
 h1 {
-   color: white; 
-   background: black; 
-   margin: 0;
+    font-size: 1.75em; 
+    font-family: 'Georgia', sans-serif;
+    letter-spacing: 0.2em;
+    color: white; 
+    background: black; 
+    margin: 0;
+    padding: 0 0 0.25em 0;
 }
 
 a {
@@ -78,28 +82,26 @@ a {
         li {
             font-size: 1em;
             color: inherit;            
-            background: rgba(0,0,0,0.8);
+            background: rgba(54, 52, 47, 0.7);
 
-            border: 0;
-            margin-top: -1px;
             padding: 0.5em 0; 
 
-            &:nth-of-type(1) {
-                color: inherit;            
-                background: rgba(0,0,0,0.3);
-            } 
-            &:nth-of-type(2) {
-                color: inherit;            
-                background: rgba(54, 52, 47, 0.7);
-            } 
-            &:nth-of-type(3) {
-                color: inherit;            
-                background: rgba(0,0,0,0.7);
-            } 
+            // &:nth-of-type(1) {
+            //     color: inherit;            
+            //     background: rgba(0,0,0,0.3);
+            // } 
+            // &:nth-of-type(2) {
+            //     color: inherit;            
+            //     background: rgba(54, 52, 47, 0.7);
+            // } 
+            // &:nth-of-type(3) {
+            //     color: inherit;            
+            //     background: rgba(0,0,0,0.7);
+            // } 
 
             &:hover {
                 color: inherit;            
-                background: rgba(0,0,0,0.9);
+                // background: rgba(0,0,0,0.9);
 
                 cursor: pointer;
             }
@@ -110,9 +112,10 @@ a {
 
                 &.project-title {
                     font-size: 2em;
-                    letter-spacing: 0.05em;
-                    color: inherit;
-                    background: rgba(0,0,0,0.9);
+                    font-family: 'Georgia', serif;
+                    letter-spacing: 0.2em;
+                    // color: inherit;
+                    // background: rgba(0,0,0,0.9);
                 }
                 &.project-description {
                     font-size: 1.25em;
