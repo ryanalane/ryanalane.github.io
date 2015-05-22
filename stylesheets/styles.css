@@ -90,33 +90,34 @@ a {
 }
 /* line 82, ../scss/styles.scss */
 #projects ol li {
-  font-size: 1em;
   color: inherit;
   background: rgba(54, 52, 47, 0.8);
+  font-size: 1em;
   padding: 0.5em 0;
+  border-bottom: 2px white solid;
 }
-/* line 89, ../scss/styles.scss */
+/* line 90, ../scss/styles.scss */
 #projects ol li:hover {
   color: inherit;
   cursor: pointer;
 }
-/* line 96, ../scss/styles.scss */
+/* line 97, ../scss/styles.scss */
 #projects ol li p {
   line-height: 1.2;
 }
-/* line 100, ../scss/styles.scss */
+/* line 101, ../scss/styles.scss */
 #projects ol li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 #projects ol li p.project-description {
   font-size: 1.25em;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.01em;
 }
-/* line 113, ../scss/styles.scss */
+/* line 114, ../scss/styles.scss */
 #projects ol li p.project-tags {
   color: #c5c5c7;
   font-size: 1em;
