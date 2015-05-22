@@ -114,15 +114,16 @@ a {
 }
 /* line 107, ../scss/styles.scss */
 #projects ol li p.project-description {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  color: #fcf5da;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
   font-weight: lighter;
 }
-/* line 113, ../scss/styles.scss */
+/* line 114, ../scss/styles.scss */
 #projects ol li p.project-tags {
   color: #c5c5c7;
-  font-size: 1em;
+  font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
