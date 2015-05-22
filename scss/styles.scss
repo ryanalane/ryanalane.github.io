@@ -85,31 +85,30 @@ a {
             font-size: 1em;
 
             padding: 0.5em 0; 
-            border-bottom: 2px white solid;
+
+            $li-border-size: 2px;
+            $li-border-color: rgba(255, 255, 255, 1);
+            border-top: $li-border-size $li-border-color solid;
+            border-bottom: $li-border-size $li-border-color solid;
+            margin-top: -$li-border-size;
 
             &:hover {
-                color: inherit;            
-                // background: rgba(0,0,0,0.9);
-
                 cursor: pointer;
             }
 
             p {
-                // margin: 0.25em 0;
                 line-height: 1.2;
 
                 &.project-title {
                     font-size: 2em;
                     font-family: 'Georgia', serif;
                     letter-spacing: 0.2em;
-                    // color: inherit;
-                    // background: rgba(0,0,0,0.9);
                 }
                 &.project-description {
                     font-size: 1.25em;
                     font-family: 'Helvetica Neue', sans-serif;
-                    letter-spacing: 0.01em;
-                    // font-weight: lighter;
+                    letter-spacing: 0.1em;
+                    font-weight: lighter;
                 }
                 &.project-tags {
                     color: rgb(197, 197, 199);
