@@ -105,14 +105,15 @@ a {
 /* line 99, ../scss/styles.scss */
 #projects ol li p {
   line-height: 1.2;
+  padding: 0 0.25em;
 }
-/* line 102, ../scss/styles.scss */
+/* line 103, ../scss/styles.scss */
 #projects ol li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 #projects ol li p.project-description {
   font-size: 1.5em;
   color: #fcf5da;
@@ -120,7 +121,7 @@ a {
   letter-spacing: 0.1em;
   font-weight: lighter;
 }
-/* line 114, ../scss/styles.scss */
+/* line 115, ../scss/styles.scss */
 #projects ol li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
