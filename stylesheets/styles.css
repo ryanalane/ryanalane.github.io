@@ -143,14 +143,23 @@ a {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
+  word-wrap: normal;
 }
-/* line 138, ../scss/styles.scss */
+/* line 139, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.date-time-frame {
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 143, ../scss/styles.scss */
+/* line 144, ../scss/styles.scss */
+#project-detail #at-a-glance-info p.date-time-frame span {
+  display: inline-block;
+}
+/* line 147, ../scss/styles.scss */
+#project-detail #at-a-glance-info p.date-time-frame span.date {
+  font-weight: bold;
+}
+/* line 152, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;

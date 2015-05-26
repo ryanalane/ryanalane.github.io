@@ -134,11 +134,20 @@ a {
             line-height: 1.2;
             padding: 0.25em;
             margin: 0;
+            word-wrap: normal;
 
             &.date-time-frame {
                 font-size: 1.25em;
                 font-family: 'Georgia', serif;
                 letter-spacing: 0.2em;
+
+                span {
+                    display: inline-block;
+
+                    &.date {
+                        font-weight: bold;
+                    }
+                }
             }
             &.project-tags {
                 color: rgb(197, 197, 199);
