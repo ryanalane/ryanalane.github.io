@@ -129,3 +129,30 @@ a {
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
+
+/* line 127, ../scss/styles.scss */
+#project-detail {
+  background: #21201d;
+}
+/* line 130, ../scss/styles.scss */
+#project-detail #at-a-glance-info {
+  color: #fcf5da;
+}
+/* line 133, ../scss/styles.scss */
+#project-detail #at-a-glance-info p {
+  line-height: 1.2;
+  padding: 0.25em;
+  margin: 0;
+}
+/* line 138, ../scss/styles.scss */
+#project-detail #at-a-glance-info p.date-time-frame {
+  font-size: 1.25em;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.2em;
+}
+/* line 143, ../scss/styles.scss */
+#project-detail #at-a-glance-info p.project-tags {
+  color: #c5c5c7;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.1em;
+}

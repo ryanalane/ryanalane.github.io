@@ -123,3 +123,28 @@ a {
         }
     }
 }
+
+#project-detail {
+    background: rgba(33, 32, 29, 1.0);
+
+    #at-a-glance-info {
+        color: rgb(252, 245, 218);
+
+        p {
+            line-height: 1.2;
+            padding: 0.25em;
+            margin: 0;
+
+            &.date-time-frame {
+                font-size: 1.25em;
+                font-family: 'Georgia', serif;
+                letter-spacing: 0.2em;
+            }
+            &.project-tags {
+                color: rgb(197, 197, 199);
+                font-family: 'Georgia', serif;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+}
