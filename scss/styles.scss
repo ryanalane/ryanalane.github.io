@@ -129,10 +129,11 @@ a {
 }
 
 #project-detail {
-    background: rgba(33, 32, 29, 1.0);
+    background: rgba(33, 32, 29, 0.8);
 
     #at-a-glance-info {
         color: rgb(252, 245, 218);
+        background: rgba(33, 32, 29, 1.0);
 
         p {
             line-height: 1.2;
