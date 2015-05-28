@@ -161,4 +161,14 @@ a {
             }
         }
     }
+
+    .visual {
+        margin: 1.5em 0;
+        .screenshot-grid {
+            padding: 0 1.5em;
+            img {
+                border: 2px solid white;
+            } 
+        }
+    }
 }

@@ -170,3 +170,15 @@ a {
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
+/* line 165, ../scss/styles.scss */
+#project-detail .visual {
+  margin: 1.5em 0;
+}
+/* line 167, ../scss/styles.scss */
+#project-detail .visual .screenshot-grid {
+  padding: 0 1.5em;
+}
+/* line 169, ../scss/styles.scss */
+#project-detail .visual .screenshot-grid img {
+  border: 2px solid white;
+}
