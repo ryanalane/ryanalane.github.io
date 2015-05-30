@@ -84,12 +84,12 @@ a {
 }
 
 /* line 78, ../scss/styles.scss */
-#projects ol {
+#projects .screenshot-grid {
   margin: 0;
   list-style-type: none;
 }
 /* line 82, ../scss/styles.scss */
-#projects ol li {
+#projects .screenshot-grid li {
   color: inherit;
   background: rgba(33, 32, 29, 0.8);
   font-size: 1em;
@@ -99,23 +99,23 @@ a {
   margin-top: -2px;
 }
 /* line 95, ../scss/styles.scss */
-#projects ol li:hover {
+#projects .screenshot-grid li:hover {
   background: #21201d;
   cursor: pointer;
 }
 /* line 100, ../scss/styles.scss */
-#projects ol li p {
+#projects .screenshot-grid li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
 /* line 104, ../scss/styles.scss */
-#projects ol li p.project-title {
+#projects .screenshot-grid li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
 /* line 109, ../scss/styles.scss */
-#projects ol li p.project-description {
+#projects .screenshot-grid li p.project-description {
   font-size: 1.5em;
   color: #fcf5da;
   font-family: 'Helvetica Neue', sans-serif;
@@ -123,11 +123,11 @@ a {
   font-weight: lighter;
 }
 /* line 116, ../scss/styles.scss */
-#projects ol li p.project-description .time-frame {
+#projects .screenshot-grid li p.project-description .time-frame {
   white-space: nowrap;
 }
 /* line 120, ../scss/styles.scss */
-#projects ol li p.project-tags {
+#projects .screenshot-grid li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
