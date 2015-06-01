@@ -2,7 +2,16 @@
 *.DS_Store
 /design/
 
+# Bower component includes
 /bower_components/*
+## modernizr.js
 !/bower_components/modernizr/
 /bower_components/modernizr/*
 !/bower_components/modernizr/modernizr.js
+
+## jquery.min.js
+!/bower_components/jquery/
+/bower_components/jquery/*
+!/bower_components/jquery/dist/
+/bower_components/jquery/dist/*
+!/bower_components/jquery/dist/jquery.min.js
