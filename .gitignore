@@ -15,3 +15,15 @@
 !/bower_components/jquery/dist/
 /bower_components/jquery/dist/*
 !/bower_components/jquery/dist/jquery.min.js
+
+## foundation.min.js
+!/bower_components/foundation/
+/bower_components/foundation/*
+!/bower_components/foundation/js/
+/bower_components/foundation/js/*
+!/bower_components/foundation/js/foundation.min.js
+
+# foundation.clearing.js
+!/bower_components/foundation/js/foundation/
+/bower_components/foundation/js/foundation/*
+!/bower_components/foundation/js/foundation/foundation.clearing.js
