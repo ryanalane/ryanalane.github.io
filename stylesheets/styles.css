@@ -182,3 +182,27 @@ a {
 #project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
+/* line 175, ../scss/styles.scss */
+#project-detail .details .project-subtitle {
+  font-size: 1.75em;
+  color: #fcf5da;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+}
+/* line 182, ../scss/styles.scss */
+#project-detail .details .project-subtitle .time-frame {
+  white-space: nowrap;
+}
+/* line 186, ../scss/styles.scss */
+#project-detail .details .details-text {
+  width: 35em;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+/* line 191, ../scss/styles.scss */
+#project-detail .details .details-text p {
+  font-size: 1.25em;
+  text-align: left;
+  padding: 0 0.5em;
+}

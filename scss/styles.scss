@@ -171,4 +171,28 @@ a {
             } 
         }
     }
+    .details {
+        .project-subtitle {
+            font-size: 1.75em;
+            color: rgb(252, 245, 218);
+            font-family: 'Georgia', serif;
+            letter-spacing: 0.2em;
+            font-weight: lighter;
+
+            .time-frame {
+                white-space: nowrap;
+            }
+        }
+        .details-text {
+            width: 35em;
+            margin: 0 auto;
+            padding: 0.5em 0;
+
+            p {
+                font-size: 1.25em;
+                text-align: left;
+                padding: 0 0.5em;
+            }
+        }
+    }
 }
