@@ -128,6 +128,9 @@ a {
     }
 }
 
+h1 {
+    text-wrap: nowrap;
+}
 #project-detail {
     background: rgba(33, 32, 29, 0.8);
 
@@ -184,7 +187,7 @@ a {
             } 
         }
     }
-    
+
     .details {
         .details-text {
             max-width: 35em;

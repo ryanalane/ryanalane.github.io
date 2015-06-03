@@ -135,46 +135,51 @@ a {
 }
 
 /* line 131, ../scss/styles.scss */
+h1 {
+  text-wrap: nowrap;
+}
+
+/* line 134, ../scss/styles.scss */
 #project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 134, ../scss/styles.scss */
+/* line 137, ../scss/styles.scss */
 #project-detail #at-a-glance-info {
   color: #fcf5da;
   background: #21201d;
 }
-/* line 138, ../scss/styles.scss */
+/* line 141, ../scss/styles.scss */
 #project-detail #at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 143, ../scss/styles.scss */
+/* line 146, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.date-time-frame {
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 148, ../scss/styles.scss */
+/* line 151, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 152, ../scss/styles.scss */
+/* line 155, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.date-time-frame span.date {
   font-weight: bold;
 }
-/* line 157, ../scss/styles.scss */
+/* line 160, ../scss/styles.scss */
 #project-detail #at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 165, ../scss/styles.scss */
+/* line 168, ../scss/styles.scss */
 #project-detail .visual {
   margin: 1.5em 0;
 }
-/* line 168, ../scss/styles.scss */
+/* line 171, ../scss/styles.scss */
 #project-detail .visual .project-subtitle {
   font-size: 1.75em;
   color: #fcf5da;
@@ -182,25 +187,25 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 175, ../scss/styles.scss */
+/* line 178, ../scss/styles.scss */
 #project-detail .visual .project-subtitle .time-frame {
   white-space: nowrap;
 }
-/* line 180, ../scss/styles.scss */
+/* line 183, ../scss/styles.scss */
 #project-detail .visual .screenshot-grid {
   padding: 0 1.5em;
 }
-/* line 182, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 #project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 189, ../scss/styles.scss */
+/* line 192, ../scss/styles.scss */
 #project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 194, ../scss/styles.scss */
+/* line 197, ../scss/styles.scss */
 #project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
