@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-#welcome-text {
+.welcome-text {
     font-size: 1.25em;
 
     p {
@@ -48,7 +48,7 @@ a {
     } 
 }
 
-#nav {
+.nav {
     font-size: 3em;
     font-family: "Lucida Console", Monaco, monospace;
 
@@ -74,7 +74,7 @@ a {
     }
 }
 
-#projects {
+.projects {
     ol.projects {
         margin: 0;
         list-style-type: none;

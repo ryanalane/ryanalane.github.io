@@ -32,64 +32,64 @@ a {
 }
 
 /* line 30, ../scss/styles.scss */
-#welcome-text {
+.welcome-text {
   font-size: 1.25em;
 }
 /* line 33, ../scss/styles.scss */
-#welcome-text p {
+.welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
 }
 /* line 37, ../scss/styles.scss */
-#welcome-text p:nth-of-type(1) {
+.welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
 /* line 41, ../scss/styles.scss */
-#welcome-text p:nth-of-type(2) {
+.welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
 /* line 45, ../scss/styles.scss */
-#welcome-text p:nth-of-type(3) {
+.welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
 /* line 51, ../scss/styles.scss */
-#nav {
+.nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
 /* line 55, ../scss/styles.scss */
-#nav ol {
+.nav ol {
   margin: 0;
 }
 /* line 59, ../scss/styles.scss */
-#nav li {
+.nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
 /* line 64, ../scss/styles.scss */
-#nav li span {
+.nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
 /* line 70, ../scss/styles.scss */
-#nav li:hover {
+.nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
 
 /* line 78, ../scss/styles.scss */
-#projects ol.projects {
+.projects ol.projects {
   margin: 0;
   list-style-type: none;
 }
 /* line 82, ../scss/styles.scss */
-#projects ol.projects li {
+.projects ol.projects li {
   color: inherit;
   background: rgba(33, 32, 29, 0.8);
   font-size: 1em;
@@ -99,23 +99,23 @@ a {
   margin-top: -2px;
 }
 /* line 95, ../scss/styles.scss */
-#projects ol.projects li:hover {
+.projects ol.projects li:hover {
   background: #21201d;
   cursor: pointer;
 }
 /* line 100, ../scss/styles.scss */
-#projects ol.projects li p {
+.projects ol.projects li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
 /* line 104, ../scss/styles.scss */
-#projects ol.projects li p.project-title {
+.projects ol.projects li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
 /* line 109, ../scss/styles.scss */
-#projects ol.projects li p.project-subtitle {
+.projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
   color: #fcf5da;
   font-family: 'Helvetica Neue', sans-serif;
@@ -123,11 +123,11 @@ a {
   font-weight: lighter;
 }
 /* line 116, ../scss/styles.scss */
-#projects ol.projects li p.project-subtitle .time-frame {
+.projects ol.projects li p.project-subtitle .time-frame {
   white-space: nowrap;
 }
 /* line 120, ../scss/styles.scss */
-#projects ol.projects li p.project-tags {
+.projects ol.projects li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
