@@ -138,59 +138,60 @@ a {
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
   width: 100%;
+  margin: 0;
 }
-/* line 135, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 .project-detail .at-a-glance-info {
   color: #fcf5da;
   background: #21201d;
 }
-/* line 139, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 144, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   color: white;
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 150, ../scss/styles.scss */
+/* line 151, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame {
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 155, ../scss/styles.scss */
+/* line 156, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 159, ../scss/styles.scss */
+/* line 160, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span.date {
   font-weight: bold;
 }
-/* line 164, ../scss/styles.scss */
+/* line 165, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 172, ../scss/styles.scss */
+/* line 173, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0;
 }
-/* line 175, ../scss/styles.scss */
+/* line 176, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   padding: 0 1.5em;
 }
-/* line 177, ../scss/styles.scss */
+/* line 178, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 184, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   font-size: 1.75em;
   color: #fcf5da;
@@ -198,13 +199,13 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 191, ../scss/styles.scss */
+/* line 192, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 196, ../scss/styles.scss */
+/* line 197, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
