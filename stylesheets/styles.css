@@ -196,7 +196,7 @@ a {
 }
 /* line 186, ../scss/styles.scss */
 #project-detail .details .details-text {
-  width: 35em;
+  max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
