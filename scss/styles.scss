@@ -164,14 +164,7 @@ a {
 
     .visual {
         margin: 1.5em 0;
-        .screenshot-grid {
-            padding: 0 1.5em;
-            img {
-                border: 2px solid white;
-            } 
-        }
-    }
-    .details {
+
         .project-subtitle {
             font-size: 1.75em;
             color: rgb(252, 245, 218);
@@ -183,6 +176,16 @@ a {
                 white-space: nowrap;
             }
         }
+
+        .screenshot-grid {
+            padding: 0 1.5em;
+            img {
+                border: 2px solid white;
+            } 
+        }
+    }
+    
+    .details {
         .details-text {
             max-width: 35em;
             margin: 0 auto;
