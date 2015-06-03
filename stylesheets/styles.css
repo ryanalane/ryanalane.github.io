@@ -136,7 +136,7 @@ a {
 
 /* line 131, ../scss/styles.scss */
 h1 {
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 /* line 134, ../scss/styles.scss */
