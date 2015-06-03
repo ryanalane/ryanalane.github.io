@@ -128,9 +128,6 @@ a {
     }
 }
 
-h1 {
-    white-space: nowrap;
-}
 #project-detail {
     background: rgba(33, 32, 29, 0.8);
 
@@ -143,6 +140,12 @@ h1 {
             padding: 0.25em;
             margin: 0;
 
+            &.project-title {
+                color: white;
+                font-size: 2em; 
+                font-family: 'Georgia', sans-serif;
+                letter-spacing: 0.2em;
+            }
             &.date-time-frame {
                 font-size: 1.25em;
                 font-family: 'Georgia', serif;
@@ -168,18 +171,6 @@ h1 {
     .visual {
         margin: 1.5em 0;
 
-        .project-subtitle {
-            font-size: 1.75em;
-            color: rgb(252, 245, 218);
-            font-family: 'Georgia', serif;
-            letter-spacing: 0.2em;
-            font-weight: lighter;
-
-            .time-frame {
-                white-space: nowrap;
-            }
-        }
-
         .screenshot-grid {
             padding: 0 1.5em;
             img {
@@ -189,6 +180,13 @@ h1 {
     }
 
     .details {
+        .project-subtitle {
+            font-size: 1.75em;
+            color: rgb(252, 245, 218);
+            font-family: 'Georgia', serif;
+            letter-spacing: 0.2em;
+            font-weight: lighter;
+        }
         .details-text {
             max-width: 35em;
             margin: 0 auto;
