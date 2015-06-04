@@ -4,9 +4,9 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  // overflow-x: hidden;
-  // overflow-y: scroll;
-  // -webkit-overflow-scrolling: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
