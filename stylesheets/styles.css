@@ -213,3 +213,24 @@ a {
   text-align: left;
   padding: 0 0.5em;
 }
+/* line 207, ../scss/styles.scss */
+.project-detail .resources {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 213, ../scss/styles.scss */
+.project-detail .resources ul {
+  margin: 0;
+  list-style-type: none;
+}
+/* line 216, ../scss/styles.scss */
+.project-detail .resources ul li {
+  display: inline-block;
+  padding: 0.25em;
+  margin: 0.75em;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.1em;
+}
