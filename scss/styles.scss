@@ -133,6 +133,9 @@ a {
 }
 
 .project-detail {
+    $fleetview-color: rgb(176, 234, 153);
+    $project-color: $fleetview-color;
+
     background: rgba(33, 32, 29, 0.8);
 
     .at-a-glance-info {
@@ -144,27 +147,12 @@ a {
 
             &.project-title {
                 color: white;
+                color: $project-color;
                 font-size: 2em; 
                 font-family: 'Georgia', sans-serif;
                 letter-spacing: 0.2em;
             }
-            &.date-time-frame {
-                color: rgb(252, 245, 218);
-                color: rgb(113, 178, 113);
-                color: rgb(176, 234, 153);
-                font-size: 1.25em;
-                font-family: 'Georgia', serif;
-                letter-spacing: 0.2em;
 
-                span {
-                    display: inline-block;
-                    white-space: nowrap;
-
-                    &.date {
-                        font-weight: bold;
-                    }
-                }
-            }
             &.project-tags {
                 color: rgb(197, 197, 199);
                 font-family: 'Georgia', serif;
@@ -188,12 +176,26 @@ a {
     .details {
         .project-subtitle {
             color: rgb(252, 245, 218);
-            // color: rgb(176, 234, 153);
             font-size: 1.75em;
             font-family: 'Georgia', serif;
             letter-spacing: 0.2em;
             font-weight: lighter;
         }        
+        .date-time-frame {
+            color: $project-color;
+            font-size: 1.25em;
+            font-family: 'Georgia', serif;
+            letter-spacing: 0.2em;
+
+            span {
+                display: inline-block;
+                white-space: nowrap;
+
+                &.date {
+                    font-weight: bold;
+                }
+            }
+        }
 
         .details-text {
             max-width: 35em;
@@ -219,11 +221,9 @@ a {
                 padding: 0.25em;
                 margin: 0.75em;
                 color: white;
-                // background: rgba(0,0,0,0.2);
                 font-size: 1em;
                 font-family: 'Helvetica Neue', sans-serif;
                 letter-spacing: 0.1em;
-                // font-weight: lighter;
             }
         }
     }
