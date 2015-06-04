@@ -183,7 +183,7 @@ a {
 }
 /* line 175, ../scss/styles.scss */
 .project-detail .visual {
-  margin: 1.5em 0;
+  margin: 1.5em 0 0.75em 0;
 }
 /* line 178, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
@@ -201,31 +201,34 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 194, ../scss/styles.scss */
+/* line 195, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 199, ../scss/styles.scss */
+/* line 200, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
   padding: 0 0.5em;
 }
-
-/* line 214, ../scss/styles.scss */
-.resources ul {
+/* line 207, ../scss/styles.scss */
+.project-detail .resources {
+  margin: 0.75em;
+}
+/* line 211, ../scss/styles.scss */
+.project-detail .resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 217, ../scss/styles.scss */
-.resources ul li {
+/* line 214, ../scss/styles.scss */
+.project-detail .resources ul li {
   display: inline-block;
   padding: 0.25em;
   margin: 0.75em;
   color: white;
-  background: rgba(0, 0, 0, 0.6);
+  font-size: 1em;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }

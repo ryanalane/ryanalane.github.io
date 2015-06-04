@@ -173,7 +173,7 @@ a {
     }
 
     .visual {
-        margin: 1.5em 0;
+        margin: 1.5em 0 0.75em 0;
 
         .screenshot-grid {
             padding: 0 1.5em;
@@ -190,7 +190,8 @@ a {
             font-family: 'Georgia', serif;
             letter-spacing: 0.2em;
             font-weight: lighter;
-        }
+        }        
+
         .details-text {
             max-width: 35em;
             margin: 0 auto;
@@ -203,27 +204,24 @@ a {
             }
         }
     }
+    .resources {
 
-}
-.resources {
-
-    // position: fixed;
-    // bottom: 0;
-    // width: 100%;
-
-    ul {
-        margin: 0;
-        list-style-type: none;
-        li {
-            display: inline-block;
-            padding: 0.25em;
-            margin: 0.75em;
-            color: white;
-            background: rgba(0,0,0,0.6);
-            // font-size: 1em;
-            font-family: 'Helvetica Neue', sans-serif;
-            letter-spacing: 0.1em;
-            // font-weight: lighter;
+        margin: 0.75em;
+        
+        ul {
+            margin: 0;
+            list-style-type: none;
+            li {
+                display: inline-block;
+                padding: 0.25em;
+                margin: 0.75em;
+                color: white;
+                // background: rgba(0,0,0,0.2);
+                font-size: 1em;
+                font-family: 'Helvetica Neue', sans-serif;
+                letter-spacing: 0.1em;
+                // font-weight: lighter;
+            }
         }
     }
 }
