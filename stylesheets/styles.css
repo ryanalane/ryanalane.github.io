@@ -5,9 +5,10 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
-/* line 9, ../scss/styles.scss */
+/* line 10, ../scss/styles.scss */
 body {
   color: white;
   background: transparent;
@@ -15,7 +16,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 16, ../scss/styles.scss */
+/* line 17, ../scss/styles.scss */
 h1 {
   font-size: 1.75em;
   font-family: 'Georgia', sans-serif;
@@ -26,70 +27,70 @@ h1 {
   padding: 0.25em 0 0.25em 0;
 }
 
-/* line 26, ../scss/styles.scss */
+/* line 27, ../scss/styles.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 31, ../scss/styles.scss */
+/* line 32, ../scss/styles.scss */
 .welcome-text {
   font-size: 1.25em;
 }
-/* line 34, ../scss/styles.scss */
+/* line 35, ../scss/styles.scss */
 .welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
 }
-/* line 38, ../scss/styles.scss */
+/* line 39, ../scss/styles.scss */
 .welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 42, ../scss/styles.scss */
+/* line 43, ../scss/styles.scss */
 .welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
-/* line 46, ../scss/styles.scss */
+/* line 47, ../scss/styles.scss */
 .welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
-/* line 52, ../scss/styles.scss */
+/* line 53, ../scss/styles.scss */
 .nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 56, ../scss/styles.scss */
+/* line 57, ../scss/styles.scss */
 .nav ol {
   margin: 0;
 }
-/* line 60, ../scss/styles.scss */
+/* line 61, ../scss/styles.scss */
 .nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 65, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 .nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 71, ../scss/styles.scss */
+/* line 72, ../scss/styles.scss */
 .nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
 
-/* line 79, ../scss/styles.scss */
+/* line 80, ../scss/styles.scss */
 .projects ol.projects {
   margin: 0;
   list-style-type: none;
 }
-/* line 83, ../scss/styles.scss */
+/* line 84, ../scss/styles.scss */
 .projects ol.projects li {
   color: inherit;
   background: rgba(33, 32, 29, 0.8);
@@ -99,23 +100,23 @@ a {
   border-bottom: 2px white solid;
   margin-top: -2px;
 }
-/* line 96, ../scss/styles.scss */
+/* line 97, ../scss/styles.scss */
 .projects ol.projects li:hover {
   background: #21201d;
   cursor: pointer;
 }
-/* line 101, ../scss/styles.scss */
+/* line 102, ../scss/styles.scss */
 .projects ol.projects li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
-/* line 105, ../scss/styles.scss */
+/* line 106, ../scss/styles.scss */
 .projects ol.projects li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 110, ../scss/styles.scss */
+/* line 111, ../scss/styles.scss */
 .projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
   color: #fcf5da;
@@ -123,11 +124,11 @@ a {
   letter-spacing: 0.1em;
   font-weight: lighter;
 }
-/* line 117, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
 .projects ol.projects li p.project-subtitle .time-frame {
   white-space: nowrap;
 }
-/* line 121, ../scss/styles.scss */
+/* line 122, ../scss/styles.scss */
 .projects ol.projects li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
@@ -135,62 +136,62 @@ a {
   letter-spacing: 0.1em;
 }
 
-/* line 132, ../scss/styles.scss */
+/* line 133, ../scss/styles.scss */
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 135, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 .project-detail .at-a-glance-info {
   color: #fcf5da;
   background: #21201d;
 }
-/* line 139, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 144, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   color: white;
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 150, ../scss/styles.scss */
+/* line 151, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame {
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 155, ../scss/styles.scss */
+/* line 156, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 159, ../scss/styles.scss */
+/* line 160, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span.date {
   font-weight: bold;
 }
-/* line 164, ../scss/styles.scss */
+/* line 165, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 172, ../scss/styles.scss */
+/* line 173, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0;
 }
-/* line 175, ../scss/styles.scss */
+/* line 176, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   padding: 0 1.5em;
 }
-/* line 177, ../scss/styles.scss */
+/* line 178, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 184, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   font-size: 1.75em;
   color: #fcf5da;
@@ -198,13 +199,13 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 191, ../scss/styles.scss */
+/* line 192, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 196, ../scss/styles.scss */
+/* line 197, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
