@@ -6,7 +6,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  position: fixed;
 }
 
 /* line 11, ../scss/styles.scss */
