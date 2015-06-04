@@ -216,7 +216,7 @@ a {
 
 /* line 208, ../scss/styles.scss */
 .resources {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
