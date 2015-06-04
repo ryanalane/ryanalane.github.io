@@ -214,12 +214,6 @@ a {
   padding: 0 0.5em;
 }
 
-/* line 208, ../scss/styles.scss */
-.resources {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 /* line 214, ../scss/styles.scss */
 .resources ul {
   margin: 0;
