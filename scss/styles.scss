@@ -10,6 +10,7 @@ body {
     color: white;
     background: transparent;
     text-align: center;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -130,7 +131,6 @@ a {
 
 .project-detail {
     background: rgba(33, 32, 29, 0.8);
-    min-width: 100%;
 
     .at-a-glance-info {
         color: rgb(252, 245, 218);
