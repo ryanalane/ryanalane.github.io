@@ -213,19 +213,20 @@ a {
   text-align: left;
   padding: 0 0.5em;
 }
-/* line 207, ../scss/styles.scss */
-.project-detail .resources {
+
+/* line 208, ../scss/styles.scss */
+.resources {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-/* line 213, ../scss/styles.scss */
-.project-detail .resources ul {
+/* line 214, ../scss/styles.scss */
+.resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 216, ../scss/styles.scss */
-.project-detail .resources ul li {
+/* line 217, ../scss/styles.scss */
+.resources ul li {
   display: inline-block;
   padding: 0.25em;
   margin: 0.75em;
