@@ -187,13 +187,14 @@ a {
 }
 /* line 178, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
+  margin: 0;
   padding: 0 1.5em;
 }
-/* line 180, ../scss/styles.scss */
+/* line 181, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 187, ../scss/styles.scss */
+/* line 188, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   font-size: 1.75em;
   color: #fcf5da;
@@ -201,28 +202,28 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 195, ../scss/styles.scss */
+/* line 196, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 200, ../scss/styles.scss */
+/* line 201, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
   padding: 0 0.5em;
 }
-/* line 207, ../scss/styles.scss */
+/* line 208, ../scss/styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 211, ../scss/styles.scss */
+/* line 212, ../scss/styles.scss */
 .project-detail .resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 214, ../scss/styles.scss */
+/* line 215, ../scss/styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   padding: 0.25em;
