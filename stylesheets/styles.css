@@ -6,10 +6,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: scroll;
 }
 
-/* line 11, ../scss/styles.scss */
+/* line 12, ../scss/styles.scss */
 body {
   color: white;
   background: transparent;
@@ -17,7 +18,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 18, ../scss/styles.scss */
+/* line 19, ../scss/styles.scss */
 h1 {
   font-size: 1.75em;
   font-family: 'Georgia', sans-serif;
@@ -28,70 +29,70 @@ h1 {
   padding: 0.25em 0 0.25em 0;
 }
 
-/* line 28, ../scss/styles.scss */
+/* line 29, ../scss/styles.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 33, ../scss/styles.scss */
+/* line 34, ../scss/styles.scss */
 .welcome-text {
   font-size: 1.25em;
 }
-/* line 36, ../scss/styles.scss */
+/* line 37, ../scss/styles.scss */
 .welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
 }
-/* line 40, ../scss/styles.scss */
+/* line 41, ../scss/styles.scss */
 .welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 44, ../scss/styles.scss */
+/* line 45, ../scss/styles.scss */
 .welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
-/* line 48, ../scss/styles.scss */
+/* line 49, ../scss/styles.scss */
 .welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
-/* line 54, ../scss/styles.scss */
+/* line 55, ../scss/styles.scss */
 .nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 58, ../scss/styles.scss */
+/* line 59, ../scss/styles.scss */
 .nav ol {
   margin: 0;
 }
-/* line 62, ../scss/styles.scss */
+/* line 63, ../scss/styles.scss */
 .nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 67, ../scss/styles.scss */
+/* line 68, ../scss/styles.scss */
 .nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 73, ../scss/styles.scss */
+/* line 74, ../scss/styles.scss */
 .nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
 
-/* line 81, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 .projects ol.projects {
   margin: 0;
   list-style-type: none;
 }
-/* line 85, ../scss/styles.scss */
+/* line 86, ../scss/styles.scss */
 .projects ol.projects li {
   color: inherit;
   background: rgba(33, 32, 29, 0.8);
@@ -101,23 +102,23 @@ a {
   border-bottom: 2px white solid;
   margin-top: -2px;
 }
-/* line 98, ../scss/styles.scss */
+/* line 99, ../scss/styles.scss */
 .projects ol.projects li:hover {
   background: #21201d;
   cursor: pointer;
 }
-/* line 103, ../scss/styles.scss */
+/* line 104, ../scss/styles.scss */
 .projects ol.projects li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 .projects ol.projects li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 112, ../scss/styles.scss */
+/* line 113, ../scss/styles.scss */
 .projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
   color: #fcf5da;
@@ -125,11 +126,11 @@ a {
   letter-spacing: 0.1em;
   font-weight: lighter;
 }
-/* line 119, ../scss/styles.scss */
+/* line 120, ../scss/styles.scss */
 .projects ol.projects li p.project-subtitle .time-frame {
   white-space: nowrap;
 }
-/* line 123, ../scss/styles.scss */
+/* line 124, ../scss/styles.scss */
 .projects ol.projects li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
@@ -137,62 +138,62 @@ a {
   letter-spacing: 0.1em;
 }
 
-/* line 134, ../scss/styles.scss */
+/* line 135, ../scss/styles.scss */
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 137, ../scss/styles.scss */
+/* line 138, ../scss/styles.scss */
 .project-detail .at-a-glance-info {
   color: #fcf5da;
   background: #21201d;
 }
-/* line 141, ../scss/styles.scss */
+/* line 142, ../scss/styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 146, ../scss/styles.scss */
+/* line 147, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   color: white;
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 152, ../scss/styles.scss */
+/* line 153, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame {
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 157, ../scss/styles.scss */
+/* line 158, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 161, ../scss/styles.scss */
+/* line 162, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.date-time-frame span.date {
   font-weight: bold;
 }
-/* line 166, ../scss/styles.scss */
+/* line 167, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 174, ../scss/styles.scss */
+/* line 175, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0;
 }
-/* line 177, ../scss/styles.scss */
+/* line 178, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   padding: 0 1.5em;
 }
-/* line 179, ../scss/styles.scss */
+/* line 180, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 186, ../scss/styles.scss */
+/* line 187, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   font-size: 1.75em;
   color: #fcf5da;
@@ -200,13 +201,13 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 193, ../scss/styles.scss */
+/* line 194, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 198, ../scss/styles.scss */
+/* line 199, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
