@@ -156,37 +156,38 @@ a {
 /* line 153, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
+  color: white;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.15em;
   line-height: 1.5;
 }
-/* line 162, ../scss/styles.scss */
+/* line 163, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0 0.75em 0;
 }
-/* line 165, ../scss/styles.scss */
+/* line 166, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   margin: 0;
   padding: 0 1.5em;
 }
-/* line 168, ../scss/styles.scss */
+/* line 169, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 171, ../scss/styles.scss */
+/* line 172, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid li {
   padding: 0 0.25em;
 }
-/* line 176, ../scss/styles.scss */
+/* line 177, ../scss/styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 179, ../scss/styles.scss */
+/* line 180, ../scss/styles.scss */
 .project-detail .resources ul {
   margin: 2em 0;
   list-style-type: none;
 }
-/* line 182, ../scss/styles.scss */
+/* line 183, ../scss/styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   margin: 1em;
@@ -195,7 +196,7 @@ a {
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }
-/* line 195, ../scss/styles.scss */
+/* line 196, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   color: #fcf5da;
   font-size: 1.65em;
@@ -204,25 +205,25 @@ a {
   font-weight: lighter;
   margin: 0;
 }
-/* line 204, ../scss/styles.scss */
+/* line 205, ../scss/styles.scss */
 .project-detail .details .date-time-frame {
   color: #fcf5da;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 210, ../scss/styles.scss */
+/* line 211, ../scss/styles.scss */
 .project-detail .details .date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 215, ../scss/styles.scss */
+/* line 216, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 220, ../scss/styles.scss */
+/* line 221, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
