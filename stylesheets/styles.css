@@ -156,8 +156,8 @@ a {
 /* line 153, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
-  font-family: 'Georgia', serif;
-  letter-spacing: 0.1em;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.15em;
 }
 /* line 161, ../scss/styles.scss */
 .project-detail .visual {
