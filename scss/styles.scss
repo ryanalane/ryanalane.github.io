@@ -143,7 +143,6 @@ a {
             margin: 0;
 
             &.project-title {
-                color: white;
                 color: $project-color;
                 font-size: 2em; 
                 font-family: 'Georgia', sans-serif;
@@ -152,7 +151,6 @@ a {
 
             &.project-tags {
                 color: rgb(197, 197, 199);
-                color: white;
                 font-family: 'Helvetica Neue', sans-serif;
                 letter-spacing: 0.15em;
                 line-height: 1.5;
