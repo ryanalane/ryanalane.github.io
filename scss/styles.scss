@@ -169,7 +169,23 @@ a {
             } 
         }
     }
+    .resources {
+        margin: 0.75em;
 
+        ul {
+            margin: 0;
+            list-style-type: none;
+            li {
+                display: inline-block;
+                padding: 0.25em;
+                margin: 0.75em;
+                color: white;
+                font-size: 1em;
+                font-family: 'Helvetica Neue', sans-serif;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
     .details {
         .project-subtitle {
             color: rgb(252, 245, 218);
@@ -193,24 +209,6 @@ a {
                 }
             }
         }
-    .resources {
-
-        margin: 0.75em;
-
-        ul {
-            margin: 0;
-            list-style-type: none;
-            li {
-                display: inline-block;
-                padding: 0.25em;
-                margin: 0.75em;
-                color: white;
-                font-size: 1em;
-                font-family: 'Helvetica Neue', sans-serif;
-                letter-spacing: 0.1em;
-            }
-        }
-    }
         .details-text {
             max-width: 35em;
             margin: 0 auto;

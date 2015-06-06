@@ -172,41 +172,17 @@ a {
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 174, ../scss/styles.scss */
-.project-detail .details .project-subtitle {
-  color: #fcf5da;
-  font-size: 1.75em;
-  font-family: 'Georgia', serif;
-  letter-spacing: 0.2em;
-  font-weight: lighter;
-}
-/* line 181, ../scss/styles.scss */
-.project-detail .details .date-time-frame {
-  color: #b0ea99;
-  font-size: 1.25em;
-  font-family: 'Georgia', serif;
-  letter-spacing: 0.2em;
-}
-/* line 187, ../scss/styles.scss */
-.project-detail .details .date-time-frame span {
-  display: inline-block;
-  white-space: nowrap;
-}
-/* line 191, ../scss/styles.scss */
-.project-detail .details .date-time-frame span.date {
-  font-weight: bold;
-}
-/* line 196, ../scss/styles.scss */
-.project-detail .details .resources {
+/* line 172, ../scss/styles.scss */
+.project-detail .resources {
   margin: 0.75em;
 }
-/* line 200, ../scss/styles.scss */
-.project-detail .details .resources ul {
+/* line 175, ../scss/styles.scss */
+.project-detail .resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 203, ../scss/styles.scss */
-.project-detail .details .resources ul li {
+/* line 178, ../scss/styles.scss */
+.project-detail .resources ul li {
   display: inline-block;
   padding: 0.25em;
   margin: 0.75em;
@@ -215,13 +191,37 @@ a {
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }
-/* line 214, ../scss/styles.scss */
+/* line 190, ../scss/styles.scss */
+.project-detail .details .project-subtitle {
+  color: #fcf5da;
+  font-size: 1.75em;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+}
+/* line 197, ../scss/styles.scss */
+.project-detail .details .date-time-frame {
+  color: #b0ea99;
+  font-size: 1.25em;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.2em;
+}
+/* line 203, ../scss/styles.scss */
+.project-detail .details .date-time-frame span {
+  display: inline-block;
+  white-space: nowrap;
+}
+/* line 207, ../scss/styles.scss */
+.project-detail .details .date-time-frame span.date {
+  font-weight: bold;
+}
+/* line 212, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 219, ../scss/styles.scss */
+/* line 217, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
