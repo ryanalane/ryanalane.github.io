@@ -128,10 +128,6 @@ a {
   font-weight: lighter;
 }
 /* line 121, ../scss/styles.scss */
-.projects ol.projects li p.project-subtitle .time-frame {
-  white-space: nowrap;
-}
-/* line 125, ../scss/styles.scss */
 .projects ol.projects li p.project-tags {
   color: #c5c5c7;
   font-size: 1.25em;
@@ -139,17 +135,17 @@ a {
   letter-spacing: 0.1em;
 }
 
-/* line 136, ../scss/styles.scss */
+/* line 132, ../scss/styles.scss */
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 144, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 149, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   color: white;
   color: #b0ea99;
@@ -157,26 +153,26 @@ a {
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 157, ../scss/styles.scss */
+/* line 153, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #c5c5c7;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 165, ../scss/styles.scss */
+/* line 161, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0 0.75em 0;
 }
-/* line 168, ../scss/styles.scss */
+/* line 164, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   margin: 0;
   padding: 0 1.5em;
 }
-/* line 171, ../scss/styles.scss */
+/* line 167, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 178, ../scss/styles.scss */
+/* line 174, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   color: #fcf5da;
   font-size: 1.75em;
@@ -184,44 +180,44 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 185, ../scss/styles.scss */
+/* line 181, ../scss/styles.scss */
 .project-detail .details .date-time-frame {
   color: #b0ea99;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 191, ../scss/styles.scss */
+/* line 187, ../scss/styles.scss */
 .project-detail .details .date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 195, ../scss/styles.scss */
+/* line 191, ../scss/styles.scss */
 .project-detail .details .date-time-frame span.date {
   font-weight: bold;
 }
-/* line 201, ../scss/styles.scss */
+/* line 197, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 35em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 206, ../scss/styles.scss */
+/* line 202, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1.25em;
   text-align: left;
   padding: 0 0.5em;
 }
-/* line 213, ../scss/styles.scss */
+/* line 209, ../scss/styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 217, ../scss/styles.scss */
+/* line 213, ../scss/styles.scss */
 .project-detail .resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 220, ../scss/styles.scss */
+/* line 216, ../scss/styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   padding: 0.25em;
