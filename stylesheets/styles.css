@@ -196,29 +196,17 @@ a {
 .project-detail .details .date-time-frame span.date {
   font-weight: bold;
 }
-/* line 197, ../scss/styles.scss */
-.project-detail .details .details-text {
-  max-width: 35em;
-  margin: 0 auto;
-  padding: 0.5em 0;
-}
-/* line 202, ../scss/styles.scss */
-.project-detail .details .details-text p {
-  font-size: 1.25em;
-  text-align: left;
-  padding: 0 0.5em;
-}
-/* line 209, ../scss/styles.scss */
-.project-detail .resources {
+/* line 196, ../scss/styles.scss */
+.project-detail .details .resources {
   margin: 0.75em;
 }
-/* line 213, ../scss/styles.scss */
-.project-detail .resources ul {
+/* line 200, ../scss/styles.scss */
+.project-detail .details .resources ul {
   margin: 0;
   list-style-type: none;
 }
-/* line 216, ../scss/styles.scss */
-.project-detail .resources ul li {
+/* line 203, ../scss/styles.scss */
+.project-detail .details .resources ul li {
   display: inline-block;
   padding: 0.25em;
   margin: 0.75em;
@@ -226,4 +214,16 @@ a {
   font-size: 1em;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
+}
+/* line 214, ../scss/styles.scss */
+.project-detail .details .details-text {
+  max-width: 35em;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+/* line 219, ../scss/styles.scss */
+.project-detail .details .details-text p {
+  font-size: 1.25em;
+  text-align: left;
+  padding: 0 0.5em;
 }
