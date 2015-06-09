@@ -212,14 +212,15 @@ a {
             }
         }
         .details-text {
-            max-width: 35em;
+            max-width: 40em;
             margin: 0 auto;
             padding: 0.5em 0;
 
             p {
-                font-size: 1.25em;
+                font-size: 1em;
                 text-align: left;
                 padding: 0 0.5em;
+                letter-spacing: 0.1em;
             }
         }
     }
