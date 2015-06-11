@@ -1,3 +1,7 @@
+/* colors */
+$fleetview-color: rgb(176, 234, 153);
+$tech-tag-color: rgb(215, 213, 216);
+
 html { 
   background: url(../images/nyugati-large.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -110,19 +114,23 @@ a {
                     font-size: 2em;
                     font-family: 'Georgia', serif;
                     letter-spacing: 0.2em;
+
+                    &.fleetview {
+                        color: $fleetview-color;
+                    }
                 }
                 &.project-subtitle {
                     font-size: 1.5em;
                     color: rgb(252, 245, 218);
-                    font-family: 'Helvetica Neue', sans-serif;
-                    letter-spacing: 0.1em;
+                    font-family: 'Georgia', serif;
+                    letter-spacing: 0.2em;
                     font-weight: lighter;
                 }
                 &.project-tags {
-                    color: rgb(197, 197, 199);
+                    color: $tech-tag-color;
                     font-size: 1.25em;
-                    font-family: 'Georgia', serif;
-                    letter-spacing: 0.1em;
+                    font-family: 'Helvetica Neue', sans-serif;
+                    letter-spacing: 0.15em;
                 }
             }
         }
@@ -130,7 +138,6 @@ a {
 }
 
 .project-detail {
-    $fleetview-color: rgb(176, 234, 153);
     $project-color: $fleetview-color;
 
     background: rgba(33, 32, 29, 0.8);
@@ -150,7 +157,7 @@ a {
             }
 
             &.project-tags {
-                color: rgb(215, 213, 216);
+                color: $tech-tag-color;
                 font-family: 'Helvetica Neue', sans-serif;
                 letter-spacing: 0.15em;
                 line-height: 1.5;

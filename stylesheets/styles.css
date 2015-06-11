@@ -1,4 +1,5 @@
-/* line 1, ../scss/styles.scss */
+/* colors */
+/* line 5, ../scss/styles.scss */
 html {
   background: url(../images/nyugati-large.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -10,7 +11,7 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 12, ../scss/styles.scss */
+/* line 16, ../scss/styles.scss */
 body {
   color: white;
   background: transparent;
@@ -18,7 +19,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 19, ../scss/styles.scss */
+/* line 23, ../scss/styles.scss */
 h1 {
   font-size: 1.75em;
   font-family: 'Georgia', sans-serif;
@@ -30,70 +31,70 @@ h1 {
   border-bottom: 2px white solid;
 }
 
-/* line 30, ../scss/styles.scss */
+/* line 34, ../scss/styles.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 35, ../scss/styles.scss */
+/* line 39, ../scss/styles.scss */
 .welcome-text {
   font-size: 1.25em;
 }
-/* line 38, ../scss/styles.scss */
+/* line 42, ../scss/styles.scss */
 .welcome-text p {
   background: rgba(0, 0, 0, 0.6);
   width: auto;
 }
-/* line 42, ../scss/styles.scss */
+/* line 46, ../scss/styles.scss */
 .welcome-text p:nth-of-type(1) {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 46, ../scss/styles.scss */
+/* line 50, ../scss/styles.scss */
 .welcome-text p:nth-of-type(2) {
   font-size: 2.2em;
   font-family: 'Verdana', sans-serif;
 }
-/* line 50, ../scss/styles.scss */
+/* line 54, ../scss/styles.scss */
 .welcome-text p:nth-of-type(3) {
   font-size: 1.5em;
   font-family: 'Georgia', serif;
 }
 
-/* line 56, ../scss/styles.scss */
+/* line 60, ../scss/styles.scss */
 .nav {
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 60, ../scss/styles.scss */
+/* line 64, ../scss/styles.scss */
 .nav ol {
   margin: 0;
 }
-/* line 64, ../scss/styles.scss */
+/* line 68, ../scss/styles.scss */
 .nav li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 69, ../scss/styles.scss */
+/* line 73, ../scss/styles.scss */
 .nav li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 75, ../scss/styles.scss */
+/* line 79, ../scss/styles.scss */
 .nav li:hover {
   background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
 
-/* line 83, ../scss/styles.scss */
+/* line 87, ../scss/styles.scss */
 .projects ol.projects {
   margin: 0;
   list-style-type: none;
 }
-/* line 87, ../scss/styles.scss */
+/* line 91, ../scss/styles.scss */
 .projects ol.projects li {
   color: inherit;
   background: rgba(33, 32, 29, 0.8);
@@ -103,89 +104,93 @@ a {
   border-bottom: 2px white solid;
   margin-top: -2px;
 }
-/* line 100, ../scss/styles.scss */
+/* line 104, ../scss/styles.scss */
 .projects ol.projects li:hover {
   background: #21201d;
   cursor: pointer;
 }
-/* line 105, ../scss/styles.scss */
+/* line 109, ../scss/styles.scss */
 .projects ol.projects li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
-/* line 109, ../scss/styles.scss */
+/* line 113, ../scss/styles.scss */
 .projects ol.projects li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 114, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
+.projects ol.projects li p.project-title.fleetview {
+  color: #b0ea99;
+}
+/* line 122, ../scss/styles.scss */
 .projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
   color: #fcf5da;
-  font-family: 'Helvetica Neue', sans-serif;
-  letter-spacing: 0.1em;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 121, ../scss/styles.scss */
+/* line 129, ../scss/styles.scss */
 .projects ol.projects li p.project-tags {
-  color: #c5c5c7;
+  color: #d7d5d8;
   font-size: 1.25em;
-  font-family: 'Georgia', serif;
-  letter-spacing: 0.1em;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.15em;
 }
 
-/* line 132, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 140, ../scss/styles.scss */
+/* line 147, ../scss/styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 145, ../scss/styles.scss */
+/* line 152, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   color: #b0ea99;
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 152, ../scss/styles.scss */
+/* line 159, ../scss/styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #d7d5d8;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.15em;
   line-height: 1.5;
 }
-/* line 161, ../scss/styles.scss */
+/* line 168, ../scss/styles.scss */
 .project-detail .visual {
   margin: 1.5em 0 0.75em 0;
 }
-/* line 164, ../scss/styles.scss */
+/* line 171, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid {
   margin: 0;
   padding: 0 1.5em;
 }
-/* line 167, ../scss/styles.scss */
+/* line 174, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 170, ../scss/styles.scss */
+/* line 177, ../scss/styles.scss */
 .project-detail .visual .screenshot-grid li {
   padding: 0 0.25em;
 }
-/* line 175, ../scss/styles.scss */
+/* line 182, ../scss/styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 178, ../scss/styles.scss */
+/* line 185, ../scss/styles.scss */
 .project-detail .resources ul {
   margin: 2em 0;
   list-style-type: none;
 }
-/* line 181, ../scss/styles.scss */
+/* line 188, ../scss/styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   margin: 1em;
@@ -194,7 +199,7 @@ a {
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }
-/* line 194, ../scss/styles.scss */
+/* line 201, ../scss/styles.scss */
 .project-detail .details .project-subtitle {
   color: #fcf5da;
   font-size: 1.65em;
@@ -203,25 +208,25 @@ a {
   font-weight: lighter;
   margin: 0;
 }
-/* line 203, ../scss/styles.scss */
+/* line 210, ../scss/styles.scss */
 .project-detail .details .date-time-frame {
   color: #fcf5da;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 209, ../scss/styles.scss */
+/* line 216, ../scss/styles.scss */
 .project-detail .details .date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 214, ../scss/styles.scss */
+/* line 221, ../scss/styles.scss */
 .project-detail .details .details-text {
   max-width: 40em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 219, ../scss/styles.scss */
+/* line 226, ../scss/styles.scss */
 .project-detail .details .details-text p {
   font-size: 1em;
   text-align: left;
