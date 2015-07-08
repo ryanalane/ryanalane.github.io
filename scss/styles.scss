@@ -1,5 +1,6 @@
 /* colors */
 $fleetview-color: rgb(176, 234, 153);
+$en-hu-translator-color: rgb(98, 226, 192);
 $tech-tag-color: rgb(215, 213, 216);
 
 html { 
@@ -118,6 +119,9 @@ a {
                     &.fleetview {
                         color: $fleetview-color;
                     }
+                    &.en-hu-translator {
+                        color: $en-hu-translator-color;
+                    }
                 }
                 &.project-subtitle {
                     font-size: 1.5em;
@@ -138,7 +142,14 @@ a {
 }
 
 .project-detail {
-    $project-color: $fleetview-color;
+    $project-color: $tech-tag-color;
+
+    &.fleetview .project-title {
+      color: $fleetview-color;
+    }
+    &.en-hu-translator .project-title {
+      color: $en-hu-translator-color;
+    }
 
     background: rgba(33, 32, 29, 0.8);
 
@@ -150,7 +161,6 @@ a {
             margin: 0;
 
             &.project-title {
-                color: $project-color;
                 font-size: 2em; 
                 font-family: 'Georgia', sans-serif;
                 letter-spacing: 0.2em;
