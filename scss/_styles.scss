@@ -186,6 +186,22 @@ a {
             } 
             li {
                 padding: 0 0.25em;
+
+                &.prezi{
+                  a.alt-image {
+                    display: none;
+                  }
+                }
+                @media #{$small-only} {
+                  &.prezi{
+                    iframe {
+                      display: none;
+                    }
+                    a.alt-image {
+                      display: inherit;
+                    }
+                  }
+                }
             }
         }
     }
