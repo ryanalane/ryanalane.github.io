@@ -1,6 +1,7 @@
 /* colors */
 $fleetview-color: rgb(176, 234, 153);
 $en-hu-translator-color: rgb(98, 226, 192);
+$prezi-color: rgb(128, 171, 247);
 $tech-tag-color: rgb(215, 213, 216);
 
 html { 
@@ -122,6 +123,9 @@ a {
                     &.en-hu-translator {
                         color: $en-hu-translator-color;
                     }
+                    &.prezi {
+                        color: $prezi-color;
+                    }
                 }
                 &.project-subtitle {
                     font-size: 1.5em;
@@ -149,6 +153,9 @@ a {
     }
     &.en-hu-translator .project-title {
       color: $en-hu-translator-color;
+    }
+    &.prezi .project-title {
+      color: $prezi-color;
     }
 
     background: rgba(33, 32, 29, 0.8);
