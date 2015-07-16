@@ -9571,7 +9571,7 @@ a {
 }
 /* line 126, ../scss/_styles.scss */
 .projects ol.projects li p.project-title.prezi {
-  color: #80abf7;
+  color: #95b9f8;
 }
 /* line 130, ../scss/_styles.scss */
 .projects ol.projects li p.project-subtitle {
@@ -9593,78 +9593,78 @@ a {
 .project-detail {
   background: rgba(33, 32, 29, 0.8);
 }
-/* line 151, ../scss/_styles.scss */
-.project-detail.fleetview .project-title {
+/* line 152, ../scss/_styles.scss */
+.project-detail.fleetview .project-title, .project-detail.fleetview .highlight {
   color: #b0ea99;
 }
-/* line 154, ../scss/_styles.scss */
-.project-detail.en-hu-translator .project-title {
+/* line 157, ../scss/_styles.scss */
+.project-detail.en-hu-translator .project-title, .project-detail.en-hu-translator .highlight {
   color: #62e2c0;
 }
-/* line 157, ../scss/_styles.scss */
-.project-detail.prezi .project-title {
-  color: #80abf7;
+/* line 162, ../scss/_styles.scss */
+.project-detail.prezi .project-title, .project-detail.prezi .highlight {
+  color: #95b9f8;
 }
-/* line 165, ../scss/_styles.scss */
+/* line 171, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 170, ../scss/_styles.scss */
+/* line 176, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 176, ../scss/_styles.scss */
+/* line 182, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: #d7d5d8;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.15em;
   line-height: 1.5;
 }
-/* line 185, ../scss/_styles.scss */
+/* line 191, ../scss/_styles.scss */
 .project-detail .visual {
   margin: 1.5em 0 0.75em 0;
 }
-/* line 188, ../scss/_styles.scss */
+/* line 194, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid {
   margin: 0;
   padding: 0 1.5em;
 }
-/* line 191, ../scss/_styles.scss */
+/* line 197, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 194, ../scss/_styles.scss */
+/* line 200, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid li {
   padding: 0 0.25em;
 }
-/* line 198, ../scss/_styles.scss */
+/* line 204, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid li.prezi a.alt-image {
   display: none;
 }
 @media only screen and (max-width: 40em) {
-  /* line 204, ../scss/_styles.scss */
+  /* line 210, ../scss/_styles.scss */
   .project-detail .visual .screenshot-grid li.prezi iframe {
     display: none;
   }
-  /* line 207, ../scss/_styles.scss */
+  /* line 213, ../scss/_styles.scss */
   .project-detail .visual .screenshot-grid li.prezi a.alt-image {
     display: inherit;
   }
 }
-/* line 215, ../scss/_styles.scss */
+/* line 221, ../scss/_styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 218, ../scss/_styles.scss */
+/* line 224, ../scss/_styles.scss */
 .project-detail .resources ul {
   margin: 2em 0;
   list-style-type: none;
 }
-/* line 221, ../scss/_styles.scss */
+/* line 227, ../scss/_styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   margin: 1em;
@@ -9673,7 +9673,7 @@ a {
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }
-/* line 234, ../scss/_styles.scss */
+/* line 240, ../scss/_styles.scss */
 .project-detail .details .project-subtitle {
   color: #fcf5da;
   font-size: 1.65em;
@@ -9682,25 +9682,25 @@ a {
   font-weight: lighter;
   margin: 0;
 }
-/* line 243, ../scss/_styles.scss */
+/* line 249, ../scss/_styles.scss */
 .project-detail .details .date-time-frame {
   color: #fcf5da;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 249, ../scss/_styles.scss */
+/* line 255, ../scss/_styles.scss */
 .project-detail .details .date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 254, ../scss/_styles.scss */
+/* line 260, ../scss/_styles.scss */
 .project-detail .details .details-text {
   max-width: 40em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 259, ../scss/_styles.scss */
+/* line 265, ../scss/_styles.scss */
 .project-detail .details .details-text p {
   font-size: 1em;
   text-align: left;

@@ -1,7 +1,7 @@
 /* colors */
 $fleetview-color: rgb(176, 234, 153);
 $en-hu-translator-color: rgb(98, 226, 192);
-$prezi-color: rgb(128, 171, 247);
+$prezi-color: rgb(149, 185, 248);
 $tech-tag-color: rgb(215, 213, 216);
 
 html { 
@@ -148,14 +148,20 @@ a {
 .project-detail {
     $project-color: $tech-tag-color;
 
-    &.fleetview .project-title {
-      color: $fleetview-color;
+    &.fleetview {
+      .project-title, .highlight {
+        color: $fleetview-color;
+      }
     }
-    &.en-hu-translator .project-title {
-      color: $en-hu-translator-color;
+    &.en-hu-translator {
+      .project-title, .highlight {
+        color: $en-hu-translator-color;
+      }
     }
-    &.prezi .project-title {
-      color: $prezi-color;
+    &.prezi {
+      .project-title, .highlight {
+        color: $prezi-color;
+      }
     }
 
     background: rgba(33, 32, 29, 0.8);
