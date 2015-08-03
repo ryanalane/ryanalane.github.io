@@ -9585,7 +9585,7 @@ a {
 
 /* line 145, ../scss/_styles.scss */
 .project-detail {
-  background: rgba(33, 32, 29, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 /* line 149, ../scss/_styles.scss */
 .project-detail.fleetview .project-title, .project-detail.fleetview .highlight {
