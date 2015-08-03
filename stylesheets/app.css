@@ -9532,7 +9532,7 @@ a {
 /* line 90, ../scss/_styles.scss */
 .projects ol.projects li {
   color: inherit;
-  background: rgba(33, 32, 29, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   font-size: 1em;
   padding: 2em 0;
   border-top: 2px white solid;
@@ -9541,7 +9541,7 @@ a {
 }
 /* line 103, ../scss/_styles.scss */
 .projects ol.projects li:hover {
-  background: #21201d;
+  background: rgba(0, 0, 0, 0.9);
   cursor: pointer;
 }
 /* line 108, ../scss/_styles.scss */
