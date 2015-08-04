@@ -9440,7 +9440,7 @@ th.hide-for-touch {
   }
 }
 /* colors */
-/* line 8, ../scss/_styles.scss */
+/* line 7, ../scss/_styles.scss */
 html {
   background: url(../images/nyugati-large.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -9452,7 +9452,7 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 19, ../scss/_styles.scss */
+/* line 18, ../scss/_styles.scss */
 body {
   color: white;
   background: transparent;
@@ -9460,7 +9460,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 26, ../scss/_styles.scss */
+/* line 25, ../scss/_styles.scss */
 h1 {
   font-size: 1.75em;
   font-family: 'Georgia', sans-serif;
@@ -9472,65 +9472,65 @@ h1 {
   border-bottom: 2px white solid;
 }
 
-/* line 37, ../scss/_styles.scss */
+/* line 36, ../scss/_styles.scss */
 a {
   color: inherit;
   border-bottom: 2px solid white;
 }
 
-/* line 42, ../scss/_styles.scss */
+/* line 41, ../scss/_styles.scss */
 .welcome-text {
   font-size: 1.25em;
   padding: 1em 0;
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 47, ../scss/_styles.scss */
+/* line 46, ../scss/_styles.scss */
 .welcome-text p {
   width: auto;
   font-size: 1.5em;
   font-family: 'Georgia', sans-serif;
 }
-/* line 52, ../scss/_styles.scss */
+/* line 51, ../scss/_styles.scss */
 .welcome-text p:last-child {
   font-size: 1.5em;
 }
 
-/* line 58, ../scss/_styles.scss */
+/* line 57, ../scss/_styles.scss */
 .nav {
   font-size: 2.5em;
   font-family: "Lucida Console", Monaco, monospace;
 }
-/* line 62, ../scss/_styles.scss */
+/* line 61, ../scss/_styles.scss */
 .nav ol {
   margin: 0;
 }
-/* line 66, ../scss/_styles.scss */
+/* line 65, ../scss/_styles.scss */
 .nav a {
   margin: 0 0.5em;
 }
-/* line 68, ../scss/_styles.scss */
+/* line 67, ../scss/_styles.scss */
 .nav a li {
   display: inline-block;
   padding: 0.5em 0.25em;
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 73, ../scss/_styles.scss */
+/* line 72, ../scss/_styles.scss */
 .nav a li span {
   font-size: 1.5em;
   padding: 0.1em 0.25em;
   border-bottom: 3px solid white;
 }
-/* line 79, ../scss/_styles.scss */
+/* line 78, ../scss/_styles.scss */
 .nav a li:hover {
   cursor: pointer;
 }
 
-/* line 87, ../scss/_styles.scss */
+/* line 86, ../scss/_styles.scss */
 .projects ol.projects {
   margin: 0;
   list-style-type: none;
 }
-/* line 91, ../scss/_styles.scss */
+/* line 90, ../scss/_styles.scss */
 .projects ol.projects li {
   color: inherit;
   background: rgba(0, 0, 0, 0.8);
@@ -9540,35 +9540,35 @@ a {
   border-bottom: 2px white solid;
   margin-top: -2px;
 }
-/* line 104, ../scss/_styles.scss */
+/* line 103, ../scss/_styles.scss */
 .projects ol.projects li:hover {
   background: rgba(0, 0, 0, 0.9);
   cursor: pointer;
 }
-/* line 109, ../scss/_styles.scss */
+/* line 108, ../scss/_styles.scss */
 .projects ol.projects li p {
   line-height: 1.2;
   padding: 0 0.25em;
 }
-/* line 113, ../scss/_styles.scss */
+/* line 112, ../scss/_styles.scss */
 .projects ol.projects li p.project-title {
   font-size: 2em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.2em;
 }
-/* line 118, ../scss/_styles.scss */
+/* line 117, ../scss/_styles.scss */
 .projects ol.projects li p.project-title.fleetview {
   color: #b0ea99;
 }
-/* line 121, ../scss/_styles.scss */
+/* line 120, ../scss/_styles.scss */
 .projects ol.projects li p.project-title.en-hu-translator {
   color: #62e2c0;
 }
-/* line 124, ../scss/_styles.scss */
+/* line 123, ../scss/_styles.scss */
 .projects ol.projects li p.project-title.prezi {
   color: #95b9f8;
 }
-/* line 128, ../scss/_styles.scss */
+/* line 127, ../scss/_styles.scss */
 .projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
   color: #fcf5da;
@@ -9576,7 +9576,7 @@ a {
   letter-spacing: 0.2em;
   font-weight: lighter;
 }
-/* line 135, ../scss/_styles.scss */
+/* line 134, ../scss/_styles.scss */
 .projects ol.projects li p.project-tags {
   color: white;
   font-size: 1.25em;
@@ -9584,82 +9584,82 @@ a {
   letter-spacing: 0.15em;
 }
 
-/* line 146, ../scss/_styles.scss */
+/* line 145, ../scss/_styles.scss */
 .project-detail {
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 150, ../scss/_styles.scss */
+/* line 149, ../scss/_styles.scss */
 .project-detail.fleetview .project-title, .project-detail.fleetview .highlight {
   color: #b0ea99;
 }
-/* line 155, ../scss/_styles.scss */
+/* line 154, ../scss/_styles.scss */
 .project-detail.en-hu-translator .project-title, .project-detail.en-hu-translator .highlight {
   color: #62e2c0;
 }
-/* line 160, ../scss/_styles.scss */
+/* line 159, ../scss/_styles.scss */
 .project-detail.prezi .project-title, .project-detail.prezi .highlight {
   color: #95b9f8;
 }
-/* line 169, ../scss/_styles.scss */
+/* line 168, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p {
   line-height: 1.2;
   padding: 0.25em;
   margin: 0;
 }
-/* line 174, ../scss/_styles.scss */
+/* line 173, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p.project-title {
   font-size: 2em;
   font-family: 'Georgia', sans-serif;
   letter-spacing: 0.2em;
 }
-/* line 180, ../scss/_styles.scss */
+/* line 179, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p.project-tags {
   color: white;
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.15em;
   line-height: 1.5;
 }
-/* line 189, ../scss/_styles.scss */
+/* line 188, ../scss/_styles.scss */
 .project-detail .visual {
   margin: 1.5em 0 0.75em 0;
 }
-/* line 192, ../scss/_styles.scss */
+/* line 191, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid {
   margin: 0;
   padding: 0 1.5em;
 }
-/* line 195, ../scss/_styles.scss */
+/* line 194, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid img {
   border: 2px solid white;
 }
-/* line 198, ../scss/_styles.scss */
+/* line 197, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid li {
   padding: 0 0.25em;
 }
-/* line 202, ../scss/_styles.scss */
+/* line 201, ../scss/_styles.scss */
 .project-detail .visual .screenshot-grid li.prezi a.alt-image {
   display: none;
 }
 @media only screen and (max-width: 40em) {
-  /* line 208, ../scss/_styles.scss */
+  /* line 207, ../scss/_styles.scss */
   .project-detail .visual .screenshot-grid li.prezi iframe {
     display: none;
   }
-  /* line 211, ../scss/_styles.scss */
+  /* line 210, ../scss/_styles.scss */
   .project-detail .visual .screenshot-grid li.prezi a.alt-image {
     display: inherit;
   }
 }
-/* line 219, ../scss/_styles.scss */
+/* line 218, ../scss/_styles.scss */
 .project-detail .resources {
   margin: 0.75em;
 }
-/* line 222, ../scss/_styles.scss */
+/* line 221, ../scss/_styles.scss */
 .project-detail .resources ul {
   margin: 2em 0;
   list-style-type: none;
 }
-/* line 225, ../scss/_styles.scss */
+/* line 224, ../scss/_styles.scss */
 .project-detail .resources ul li {
   display: inline-block;
   margin: 1em;
@@ -9668,7 +9668,7 @@ a {
   font-family: 'Helvetica Neue', sans-serif;
   letter-spacing: 0.1em;
 }
-/* line 238, ../scss/_styles.scss */
+/* line 237, ../scss/_styles.scss */
 .project-detail .details .project-subtitle {
   color: #fcf5da;
   font-size: 1.65em;
@@ -9677,25 +9677,25 @@ a {
   font-weight: lighter;
   margin: 0;
 }
-/* line 247, ../scss/_styles.scss */
+/* line 246, ../scss/_styles.scss */
 .project-detail .details .date-time-frame {
   color: #fcf5da;
   font-size: 1.25em;
   font-family: 'Georgia', serif;
   letter-spacing: 0.1em;
 }
-/* line 253, ../scss/_styles.scss */
+/* line 252, ../scss/_styles.scss */
 .project-detail .details .date-time-frame span {
   display: inline-block;
   white-space: nowrap;
 }
-/* line 258, ../scss/_styles.scss */
+/* line 257, ../scss/_styles.scss */
 .project-detail .details .details-text {
   max-width: 40em;
   margin: 0 auto;
   padding: 0.5em 0;
 }
-/* line 263, ../scss/_styles.scss */
+/* line 262, ../scss/_styles.scss */
 .project-detail .details .details-text p {
   font-size: 1em;
   text-align: left;
