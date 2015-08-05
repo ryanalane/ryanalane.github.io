@@ -43,6 +43,10 @@ a {
     padding: 1em 0;
     background: rgba(0,0,0,0.8);
 
+    a {
+        white-space: nowrap;
+    }
+
     p {
         width: auto;
         font-size: 1.5em; 
