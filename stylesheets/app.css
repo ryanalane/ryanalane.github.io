@@ -9572,6 +9572,12 @@ a {
 .projects ol.projects li p.project-title.prezi {
   color: #95b9f8;
 }
+.projects ol.projects li p.project-title.lab-coop {
+  color: #008CBA;
+}
+.projects ol.projects li p.project-title.momento {
+  color: #FC85FF;
+}
 /* line 131, ../scss/_styles.scss */
 .projects ol.projects li p.project-subtitle {
   font-size: 1.5em;
@@ -9603,6 +9609,12 @@ a {
 /* line 163, ../scss/_styles.scss */
 .project-detail.prezi .project-title, .project-detail.prezi .highlight {
   color: #95b9f8;
+}
+.project-detail.lab-coop .project-title, .project-detail.lab-coop .highlight {
+  color: #008CBA;
+}
+.project-detail.momento .project-title, .project-detail.momento .highlight {
+  color: #FC85FF;
 }
 /* line 172, ../scss/_styles.scss */
 .project-detail .at-a-glance-info p {

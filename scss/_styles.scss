@@ -1,5 +1,6 @@
 /* colors */
-$fleetview-color: rgb(176, 234, 153);
+$momento-color: rgb(252, 133, 255);
+$lab-coop-color: #008CBA;
 $en-hu-translator-color: rgb(98, 226, 192);
 $prezi-color: rgb(149, 185, 248);
 $tech-tag-color: rgb(255, 255, 255);
@@ -127,6 +128,12 @@ a {
                     &.prezi {
                         color: $prezi-color;
                     }
+                    &.lab-coop {
+                        color: $lab-coop-color;
+                    }
+                    &.momento {
+                        color: $momento-color;
+                    }
                 }
                 &.project-subtitle {
                     font-size: 1.5em;
@@ -162,6 +169,16 @@ a {
     &.prezi {
       .project-title, .highlight {
         color: $prezi-color;
+      }
+    }
+    &.lab-coop {
+      .project-title, .highlight {
+        color: $lab-coop-color;
+      }
+    }
+    &.momento {
+      .project-title, .highlight {
+        color: $momento-color;
       }
     }
 
