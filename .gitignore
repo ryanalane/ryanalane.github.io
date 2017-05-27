@@ -1,6 +1,7 @@
 /.sass-cache/*
 *.DS_Store
 /design/
+/_site/
 
 # Bower component includes
 /bower_components/*
